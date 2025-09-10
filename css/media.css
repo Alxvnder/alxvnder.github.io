@@ -1,0 +1,210 @@
+/* Ukuran layar tablet (max-width: 768px) */
+@media (max-width: 768px) {
+    .welcome {
+        flex-direction: column;
+        padding: 10px;
+        background-size: 50%;
+        background-position: 100% 20%;
+    }
+
+    .welcome-text {
+        padding-bottom: 52px;
+        padding-top: 150px;
+        padding-left: 0;
+    }
+
+    .welcome-text img {
+        width: 80vw;
+    }
+
+    .welcome-caption {
+        font-size: 12px;
+    }
+
+
+    .welcome-img img {
+        height: auto;
+        width: 60vw;
+    }
+
+    .scroll-circle {
+        padding-bottom: 30px;
+    }
+
+    .scroll-more {
+        font-size: 10px;
+    }
+
+    .circle-rotate img {
+        width: 50%;
+    }
+
+    .infinite {
+        padding-top: 20px;
+    }
+
+    .infinite-scroll {
+        font-size: 52px;
+    }
+
+    .showcase {
+        display: flex;
+        width: 100vw;
+        overflow: hidden;
+        padding: 20px 0 50px;
+    }
+
+    .display-1,
+    .display-2-wrapper {
+        padding: 5px;
+    }
+
+    .display-2-wrapper {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .about {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .about-title {
+        font-size: 38px;
+        line-height: 46px;
+        width: 100%;
+        margin-bottom: 28px;
+    }
+
+    .about-description {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .web-section {
+        padding-top: 50px;
+    }
+
+    .website-projects {
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+
+
+    .daftar-web {
+        padding: 10px 0 10px;
+    }
+
+    .nama-web {
+        font-size: 16px;
+    }
+
+    .arrow-web img {
+        max-width: 50%;
+    }
+
+    .the-blog {
+        padding-top: 20px;
+    }
+
+
+    .theblog-title {
+        font-size: 32px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .the-blog-img {
+        padding-right: 20px;
+    }
+
+    .the-blog-img img {
+        max-width: 100%;
+    }
+
+    .the-blog-sub {
+        border: 0;
+    }
+
+    .judul-blog {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    .blog-read {
+        font-size: 12px;
+    }
+
+    .the-blog-arrow {
+        display: none;
+    }
+
+    .the-blog-number,
+    .the-blog-img,
+    .the-blog-sub,
+    .the-blog-arrow {
+        padding-bottom: 22px;
+    }
+
+
+
+
+    .the-works-section {
+        padding-top: 50px;
+    }
+
+    .the-works {
+        font-size: 68px;
+    }
+
+    .works-list {
+        padding-bottom: 80px;
+    }
+
+    .works-wrap {
+        flex-direction: column;
+    }
+
+    .works-title {
+        font-size: 28px;
+        padding-bottom: 0;
+    }
+
+    .work-right {
+        text-align-last: left;
+    }
+
+    .client {
+        padding-top: 20px;
+    }
+
+    .works-image {
+        padding-top: 38px;
+    }
+
+
+
+
+}
+
+/* Ukuran layar handphone (max-width: 480px) */
+@media (max-width: 480px) {
+    .welcome {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 100vw;
+    }
+
+    .welcome-text {
+        padding-bottom: 32px;
+    }
+
+
+    .kosong {
+        display: none;
+    }
+
+    .jumbotron img {
+        min-height: 50vh;
+    }
+}

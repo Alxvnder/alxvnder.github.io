@@ -1,0 +1,211 @@
+.menu a.muncul-home {
+    color: #f3f3f3;
+    opacity: 0.3;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    padding-top: 9px;
+    padding-bottom: 9px;
+    opacity: 0.3;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    color: #121212;
+}
+
+.logopage {
+    width: 40px !important;
+    position: relative;
+}
+
+.menu a.active {
+    opacity: 1;
+    /* color: #E7165D; */
+    /* color: #f3f3f3; */
+    color: #6747ED;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    opacity: 1;
+    color: #121212;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* 
+.container {
+    max-width: 1280px;
+} */
+
+.heightmarginmenu {
+    margin-top: 40px;
+}
+
+.line-home {
+    border-bottom: 1px solid rgba(207, 207, 207, 0.473);
+    margin-bottom: 40px;
+    height: 20px;
+}
+
+.linewhite {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.248);
+    margin-bottom: 40px;
+    height: 20px;
+}
+
+@media (max-width: 820px) {
+    .heightmarginmenu {
+        display: none;
+    }
+}
+
+
+
+/* ----------------- Setup semua komponen header -----------------  */
+
+.headerarea {
+    /* margin-top: 20px; */
+    height: 90px;
+    padding: 50px 30px 30px 30px;
+    z-index: -1;
+    background: #121212;
+}
+
+.logoplacement {
+    float: left;
+}
+
+.menu {
+    float: left;
+    margin-top: 10px;
+}
+
+.form-bar {
+    float: right;
+}
+
+.menu a {
+    text-decoration: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    color: #082431;
+}
+
+.menu a:hover {
+    opacity: 1;
+}
+
+.menu a.active {
+    opacity: 1;
+}
+
+.separatorheader {
+    height: 56px;
+}
+
+.menuburger {
+    float: right;
+    margin-top: 10px;
+}
+
+/* -----------------  Setup burger menu -----------------  */
+
+.headermenumobile {
+    height: 70px;
+    padding: 20px;
+}
+
+.menuburger img {
+    width: 28px;
+    cursor: pointer;
+}
+
+.menuhilang {
+    display: none;
+}
+
+.menumuncul {
+    display: block;
+}
+
+.menumobile {
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: none;
+}
+
+.menumobile a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: #082431;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 20px 0px;
+    display: block;
+    opacity: 0.6;
+    /* text-transform: uppercase; */
+}
+
+.menumobile a.active {
+    opacity: 1;
+    color: #E7165D;
+}
+
+.positionmenu {
+    margin-top: 50px;
+}
+
+/* ----------------- Setup responsive ----------------- */
+
+@media only screen and (max-width: 1024px) {
+    .menuhilang {
+        display: block;
+    }
+
+    .menumuncul {
+        display: none;
+    }
+
+    .headerarea {
+        height: 70px;
+        padding: 20px;
+    }
+
+}
+
+/* ----------------- Setup Back to top ----------------- */
+
+
+.backtoptop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
