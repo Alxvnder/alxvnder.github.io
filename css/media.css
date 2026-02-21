@@ -54,6 +54,12 @@
         padding: 20px 0 50px;
     }
 
+    .showcase-1 img,
+    .showcase-2 img,
+    .showcase-3 img {
+        border-radius: 10px;
+    }
+
     .display-1,
     .display-2-wrapper {
         padding: 5px;
@@ -81,70 +87,6 @@
         width: 100%;
     }
 
-    .web-section {
-        padding-top: 50px;
-    }
-
-    .website-projects {
-        font-size: 68px;
-        padding-bottom: 10px;
-    }
-
-
-    .daftar-web {
-        padding: 10px 0 10px;
-    }
-
-    .nama-web {
-        font-size: 16px;
-    }
-
-    .arrow-web img {
-        max-width: 50%;
-    }
-
-    .the-blog {
-        padding-top: 20px;
-    }
-
-
-    .theblog-title {
-        font-size: 68px;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
-    .the-blog-img {
-        padding-right: 20px;
-    }
-
-    .the-blog-img img {
-        max-width: 100%;
-    }
-
-    .the-blog-sub {
-        border: 0;
-    }
-
-    .judul-blog {
-        font-size: 16px;
-        padding-bottom: 5px;
-    }
-
-    .blog-read {
-        font-size: 12px;
-    }
-
-    .the-blog-arrow {
-        display: none;
-    }
-
-    .the-blog-number,
-    .the-blog-img,
-    .the-blog-sub,
-    .the-blog-arrow {
-        padding-bottom: 22px;
-    }
 
 
 
@@ -181,6 +123,83 @@
 
     .works-image {
         padding-top: 38px;
+    }
+
+    .works-image img {
+        max-width: 95vw;
+    }
+
+
+
+
+
+    .the-blog {
+        padding-top: 20px;
+    }
+
+
+    .theblog-title {
+        font-size: 68px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .the-blog-img {
+        padding-right: 20px;
+    }
+
+    .the-blog-img img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    .the-blog-sub {
+        border: 0;
+    }
+
+    .judul-blog {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    .blog-read {
+        font-size: 12px;
+    }
+
+    .the-blog-arrow {
+        display: none;
+    }
+
+    .the-blog-number,
+    .the-blog-img,
+    .the-blog-sub,
+    .the-blog-arrow {
+        padding-bottom: 22px;
+    }
+
+
+
+
+
+    .web-section {
+        padding-top: 50px;
+    }
+
+    .website-projects {
+        font-size: 68px;
+        padding-bottom: 10px;
+    }
+
+    .daftar-web {
+        padding: 10px 0 10px;
+    }
+
+    .nama-web {
+        font-size: 16px;
+    }
+
+    .arrow-web img {
+        max-width: 50%;
     }
 
 
