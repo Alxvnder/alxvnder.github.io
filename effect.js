@@ -31,3 +31,30 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 
 
+
+
+
+
+
+window.addEventListener('scroll', function () {
+    const nav = document.getElementById('main-nav');
+    if (window.scrollY > 50) {
+        nav.classList.add('scrolled');
+    } else {
+        nav.classList.remove('scrolled');
+    }
+});
+
+
+// Tambahkan ini di dalam file JS kamu
+const navLinks = document.querySelectorAll('.nav-link');
+const menuToggle = document.getElementById('navbarNav');
+const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false });
+
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => {
+        if (window.innerWidth < 992) { // Hanya tutup otomatis di mobile
+            bsCollapse.hide();
+        }
+    });
+});

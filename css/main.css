@@ -48,7 +48,7 @@ body {
 }
 
 .marginatas {
-    height: 85px;
+    height: 90px;
 }
 
 .white {
@@ -56,16 +56,23 @@ body {
 }
 
 .dark-bg {
-    background-color: #091B22;
+    background-color: #121212;
 }
 
-a {
-    text-decoration: none;
+/* Update global reset di main.css */
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+    text-decoration: none !important;
+    color: inherit;
+    /* Supaya warna teks mengikuti parent-nya, bukan biru default */
 }
 
 .intro {
     position: fixed;
-    z-index: 2;
+    z-index: 9999;
     left: 0;
     top: 0;
     width: 100%;
@@ -394,13 +401,23 @@ a {
     padding-bottom: 80px;
 }
 
-.website-projects {
+/* .website-projects {
     font-family: "PP-Neue-Montreal-Medium";
-    /* color: #3170f8; */
+    
     color: #F8F6F0;
     max-width: 100vw;
     font-size: 118px;
     padding-bottom: 10px;
+} */
+
+.website-projects {
+    color: #F8F6F0;
+    font-family: "Cinderblock";
+    font-size: 250px;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    padding-bottom: 50px;
 }
 
 .daftar-web {
@@ -452,13 +469,13 @@ a {
 
 
 .theblog-title {
-    font-family: "PP-Neue-Montreal-Medium";
     color: #F8F6F0;
-    max-width: 100vw;
-    font-size: 118px;
-    padding: 20px 0 30px;
-    margin: auto;
+    font-family: "Cinderblock";
+    font-size: 250px;
     text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    padding-bottom: 50px;
 }
 
 .the-blog-wrap {
