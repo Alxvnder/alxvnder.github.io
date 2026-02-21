@@ -113,6 +113,10 @@
         padding-bottom: 0;
     }
 
+    .works-desc {
+        font-size: 16px;
+    }
+
     .work-right {
         text-align-last: left;
     }
