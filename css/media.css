@@ -130,7 +130,8 @@
     }
 
     .works-image img {
-        max-width: 95vw;
+        max-width: 90vw;
+        border-radius: 10px;
     }
 
 
