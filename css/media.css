@@ -1,5 +1,11 @@
 /* Ukuran layar tablet (max-width: 768px) */
 @media (max-width: 768px) {
+
+
+    .background-glow {
+        width: 100px;
+    }
+
     .welcome {
         flex-direction: column;
         padding: 10px;
@@ -54,11 +60,6 @@
         padding: 20px 0 50px;
     }
 
-    .showcase-1 img,
-    .showcase-2 img,
-    .showcase-3 img {
-        border-radius: 10px;
-    }
 
     .display-1,
     .display-2-wrapper {
@@ -131,7 +132,6 @@
 
     .works-image img {
         max-width: 90vw;
-        border-radius: 10px;
     }
 
 
@@ -155,7 +155,6 @@
 
     .the-blog-img img {
         max-width: 100%;
-        border-radius: 5px;
     }
 
     .the-blog-sub {

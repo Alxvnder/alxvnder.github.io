@@ -39,9 +39,8 @@
 
 /* --- MENU DESKTOP --- */
 .nav-pills-custom {
-    background-color: #000000;
+    background: #f4f4f4;
     border-radius: 50px;
-    /* border: 0.5px solid #ffffff; */
 }
 
 .nav-pills-custom .nav-link {
@@ -116,7 +115,7 @@
 #main-nav.scrolled .nav-capsule {
     background-color: #ffffff;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-    padding: 10px 25px;
+    padding: 5px 25px;
     border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
